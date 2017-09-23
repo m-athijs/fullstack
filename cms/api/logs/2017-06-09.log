@@ -1,0 +1,133 @@
+ERROR - 2017-06-09T06:01:23-04:00 - exception 'ErrorException' with message 'Undefined index: name' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php:345
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(345): Slim\Slim::handleErrors(8, 'Undefined index...', '/Users/mathijs/...', 345, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#3 [internal function]: Directus\API\Routes\A1\Files->files()
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-06-09T06:07:04-04:00 - exception 'ErrorException' with message 'Undefined index: name' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php:345
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(345): Slim\Slim::handleErrors(8, 'Undefined index...', '/Users/mathijs/...', 345, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#3 [internal function]: Directus\API\Routes\A1\Files->files()
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-06-09T06:11:18-04:00 - exception 'ErrorException' with message 'Undefined index: name' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php:345
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(345): Slim\Slim::handleErrors(8, 'Undefined index...', '/Users/mathijs/...', 345, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#3 [internal function]: Directus\API\Routes\A1\Files->files()
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-06-09T06:12:27-04:00 - exception 'ErrorException' with message 'array_merge(): Argument #1 is not an array' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php:43
+Stack trace:
+#0 [internal function]: Slim\Slim::handleErrors(2, 'array_merge(): ...', '/Users/mathijs/...', 43, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(43): array_merge(false, Array)
+#2 [internal function]: Directus\API\Routes\A1\Files->files()
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#11 {main}
+ERROR - 2017-06-09T06:15:41-04:00 - exception 'ErrorException' with message 'array_merge(): Argument #1 is not an array' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php:43
+Stack trace:
+#0 [internal function]: Slim\Slim::handleErrors(2, 'array_merge(): ...', '/Users/mathijs/...', 43, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(43): array_merge(false, Array)
+#2 [internal function]: Directus\API\Routes\A1\Files->files()
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#11 {main}
+ERROR - 2017-06-09T06:17:51-04:00 - exception 'ErrorException' with message 'Undefined index: name' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php:345
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(345): Slim\Slim::handleErrors(8, 'Undefined index...', '/Users/mathijs/...', 345, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#3 [internal function]: Directus\API\Routes\A1\Files->files()
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-06-09T06:19:14-04:00 - exception 'ErrorException' with message 'Undefined index: name' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php:345
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(345): Slim\Slim::handleErrors(8, 'Undefined index...', '/Users/mathijs/...', 345, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#3 [internal function]: Directus\API\Routes\A1\Files->files()
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-06-09T06:22:32-04:00 - exception 'ErrorException' with message 'Undefined index: name' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php:345
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(345): Slim\Slim::handleErrors(8, 'Undefined index...', '/Users/mathijs/...', 345, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#3 [internal function]: Directus\API\Routes\A1\Files->files()
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-06-09T06:23:23-04:00 - exception 'ErrorException' with message 'Undefined index: name' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php:345
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(345): Slim\Slim::handleErrors(8, 'Undefined index...', '/Users/mathijs/...', 345, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#3 [internal function]: Directus\API\Routes\A1\Files->files()
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}

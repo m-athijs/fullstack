@@ -1,0 +1,22 @@
+<template>
+    <require from="../styles.css"></require>
+    <div class="ui container">
+        <div class="ui blue inverted menu">
+            <div class="header item">
+                <i class="large home icon"></i>
+            </div>
+            <a repeat.for="route of router.navigation" class="item ${route.isActive ? 'active' : ''}" href.bind="route.href">
+                    ${route.title}
+                </a>
+            <div class="right menu">
+                <a class="item" href="cms" target="_blank">
+                    <i class="database icon"></i> CMS
+                </a>
+            </div>
+        </div>
+        <router-view></router-view>
+        <h5 class="ui blue horizontal section divider header">
+            copyright &copy; 2017, YOTZ.net
+        </h5>
+    </div>
+</template>

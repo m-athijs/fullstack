@@ -1,0 +1,224 @@
+ERROR - 2017-04-24T16:32:56-04:00 - exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') COMMENT ""' at line 1' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:239
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php(239): PDOStatement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('frameworks', Array)
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('frameworks', Array)
+#4 [internal function]: {closure}('frameworks')
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#13 {main}
+
+Next exception 'Zend\Db\Adapter\Exception\InvalidQueryException' with message 'Statement could not be executed (42000 - 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') COMMENT ""' at line 1)' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:244
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('frameworks', Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('frameworks', Array)
+#3 [internal function]: {closure}('frameworks')
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-04-24T16:36:06-04:00 - exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10) COMMENT ""' at line 1' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:239
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php(239): PDOStatement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('frameworks', Array)
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('frameworks', Array)
+#4 [internal function]: {closure}('frameworks')
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#13 {main}
+
+Next exception 'Zend\Db\Adapter\Exception\InvalidQueryException' with message 'Statement could not be executed (42000 - 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10) COMMENT ""' at line 1)' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:244
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('frameworks', Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('frameworks', Array)
+#3 [internal function]: {closure}('frameworks')
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-04-24T16:37:11-04:00 - exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100) COMMENT ""' at line 1' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:239
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php(239): PDOStatement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('frameworks', Array)
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('frameworks', Array)
+#4 [internal function]: {closure}('frameworks')
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#13 {main}
+
+Next exception 'Zend\Db\Adapter\Exception\InvalidQueryException' with message 'Statement could not be executed (42000 - 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100) COMMENT ""' at line 1)' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:244
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('frameworks', Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('frameworks', Array)
+#3 [internal function]: {closure}('frameworks')
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-04-24T16:37:21-04:00 - exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') COMMENT ""' at line 1' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:239
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php(239): PDOStatement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('frameworks', Array)
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('frameworks', Array)
+#4 [internal function]: {closure}('frameworks')
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#13 {main}
+
+Next exception 'Zend\Db\Adapter\Exception\InvalidQueryException' with message 'Statement could not be executed (42000 - 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') COMMENT ""' at line 1)' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:244
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('frameworks', Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('frameworks', Array)
+#3 [internal function]: {closure}('frameworks')
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-04-24T16:37:32-04:00 - exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1) COMMENT ""' at line 1' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:239
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php(239): PDOStatement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('frameworks', Array)
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('frameworks', Array)
+#4 [internal function]: {closure}('frameworks')
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#13 {main}
+
+Next exception 'Zend\Db\Adapter\Exception\InvalidQueryException' with message 'Statement could not be executed (42000 - 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1) COMMENT ""' at line 1)' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:244
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('frameworks', Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('frameworks', Array)
+#3 [internal function]: {closure}('frameworks')
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-04-24T16:37:40-04:00 - exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10) COMMENT ""' at line 1' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:239
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php(239): PDOStatement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('frameworks', Array)
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('frameworks', Array)
+#4 [internal function]: {closure}('frameworks')
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#13 {main}
+
+Next exception 'Zend\Db\Adapter\Exception\InvalidQueryException' with message 'Statement could not be executed (42000 - 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10) COMMENT ""' at line 1)' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:244
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('frameworks', Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('frameworks', Array)
+#3 [internal function]: {closure}('frameworks')
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-04-24T16:39:13-04:00 - exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100) COMMENT ""' at line 1' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:239
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php(239): PDOStatement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('testtable', Array)
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('testtable', Array)
+#4 [internal function]: {closure}('testtable')
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#13 {main}
+
+Next exception 'Zend\Db\Adapter\Exception\InvalidQueryException' with message 'Statement could not be executed (42000 - 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100) COMMENT ""' at line 1)' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php:244
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(444): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Db/TableGateway/BaseTableGateway.php(408): Directus\Db\TableGateway\BaseTableGateway->addTableColumn('testtable', Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1106): Directus\Db\TableGateway\BaseTableGateway->addColumn('testtable', Array)
+#3 [internal function]: {closure}('testtable')
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}

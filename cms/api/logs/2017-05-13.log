@@ -1,0 +1,34 @@
+ERROR - 2017-05-13T03:39:27-04:00 - exception 'Directus\Database\Exception\DuplicateEntryException' with message 'Duplicate value: test@fullstack.dev<br>(directus_users_email_unique)' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php:693
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/TableGateway/AbstractTableGateway.php(264): Directus\Database\TableGateway\BaseTableGateway->executeInsert(Object(Zend\Db\Sql\Insert))
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(340): Zend\Db\TableGateway\AbstractTableGateway->insert(Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Services/EntriesService.php(32): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_users', Array, 1)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(936): Directus\Services\EntriesService->createEntry('directus_users', Array, Array)
+#5 [internal function]: {closure}('directus_users')
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#13 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#14 {main}
+ERROR - 2017-05-13T12:07:51-04:00 - exception 'Directus\Database\Exception\DuplicateEntryException' with message 'Duplicate value: test@fullstack.dev<br>(directus_users_email_unique)' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php:693
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/zendframework/zend-db/src/TableGateway/AbstractTableGateway.php(264): Directus\Database\TableGateway\BaseTableGateway->executeInsert(Object(Zend\Db\Sql\Insert))
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(340): Zend\Db\TableGateway\AbstractTableGateway->insert(Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Services/EntriesService.php(32): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_users', Array, 1)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(936): Directus\Services\EntriesService->createEntry('directus_users', Array, Array)
+#5 [internal function]: {closure}('directus_users')
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#13 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#14 {main}

@@ -1,0 +1,17 @@
+<template>
+    <ux-dialog>
+        <ux-dialog-body>
+            <div class="ui center aligned grid">
+                <div class="sixteen wide column">
+                    <div class="header">Are you sure you want to delete <strong>${framework.title}</strong>?</div>
+                </div>
+                <div class="eight wide column">
+                    <button class="ui blue button" click.trigger="dialogController.ok()">yes</button>
+                </div>
+                <div class="eight wide column">
+                    <button class="ui basic blue button" click.trigger="dialogController.cancel()">no</button>
+                </div>
+            </div>
+        </ux-dialog-body>
+    </ux-dialog>
+</template>

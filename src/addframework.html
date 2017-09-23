@@ -1,0 +1,46 @@
+<template>
+    <require from="./common/blob-to-url"></require>
+    <require from="./common/file-list-to-array"></require>
+    <h1 class="ui header">Add framework</h1>
+    <form class="ui form" submit.delegate="save()">
+        <div class="required field" validation-errors.bind="titleErrors" class.bind="titleErrors.length ? 'error' : ''">
+            <label>Title</label>
+            <input type="text" placeholder="title" id="title" value.bind="framework.title & validate" autofocus="true">
+            <div class="ui blue basic pointing label" if.bind="titleErrors.length > 0">
+                <p repeat.for="errorInfo of titleErrors">
+                    ${errorInfo.error.message}
+                </p>
+            </div>
+        </div>
+        <div class="required field" validation-errors.bind="taglineErrors" class.bind="taglineErrors.length ? 'error' : ''">
+            <label>Tagline</label>
+            <input type="text" placeholder="Enter a tagline" value.bind="framework.tagline & validate">
+            <div class="ui blue basic pointing label" if.bind="taglineErrors.length > 0">
+                <p repeat.for="errorInfo of taglineErrors">
+                    ${errorInfo.error.message}
+                </p>
+            </div>
+        </div>
+        <div class="field">
+            <label>Description</label>
+            <textarea rows="3" placeholder="Enter a description" value.bind="framework.description"></textarea>
+        </div>
+        <div class="field" validation-errors.bind="urlErrors" class.bind="urlErrors.length ? 'error' : ''">
+            <label>Website</label>
+            <input type="text" placeholder="Enter a website URL" value.bind="framework.URL & validate">
+            <div class="ui blue basic pointing label" if.bind="urlErrors.length > 0">
+                <p repeat.for="errorInfo of urlErrors">
+                    ${errorInfo.error.message}
+                </p>
+            </div>
+        </div>
+        <div class="field">
+            <label>Image</label>
+            <input type="file" multiple accept="image/*" files.bind="selectedFiles">
+            <div repeat.for="file of selectedFiles | fileListToArray">
+                <img src.bind="file | blobToUrl" alt="" class="ui small image">
+            </div>
+            <button class="ui blue button" type="submit">Save</button>
+            <button class="ui blue basic button" click.delegate="cancel()">Cancel</button>
+    </form>
+</template>

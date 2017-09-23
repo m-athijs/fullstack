@@ -1,0 +1,243 @@
+ERROR - 2017-06-05T10:18:53-04:00 - exception 'ErrorException' with message 'array_merge(): Argument #1 is not an array' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php:43
+Stack trace:
+#0 [internal function]: Slim\Slim::handleErrors(2, 'array_merge(): ...', '/Users/mathijs/...', 43, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(43): array_merge(false, Array)
+#2 [internal function]: Directus\API\Routes\A1\Files->files()
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#11 {main}
+ERROR - 2017-06-05T10:20:59-04:00 - exception 'ErrorException' with message 'array_merge(): Argument #1 is not an array' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php:43
+Stack trace:
+#0 [internal function]: Slim\Slim::handleErrors(2, 'array_merge(): ...', '/Users/mathijs/...', 43, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(43): array_merge(false, Array)
+#2 [internal function]: Directus\API\Routes\A1\Files->files()
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#11 {main}
+ERROR - 2017-06-05T10:27:09-04:00 - exception 'ErrorException' with message 'array_merge(): Argument #1 is not an array' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php:43
+Stack trace:
+#0 [internal function]: Slim\Slim::handleErrors(2, 'array_merge(): ...', '/Users/mathijs/...', 43, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(43): array_merge(false, Array)
+#2 [internal function]: Directus\API\Routes\A1\Files->files()
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#11 {main}
+ERROR - 2017-06-05T10:28:37-04:00 - exception 'ErrorException' with message 'array_merge(): Argument #1 is not an array' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php:43
+Stack trace:
+#0 [internal function]: Slim\Slim::handleErrors(2, 'array_merge(): ...', '/Users/mathijs/...', 43, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(43): array_merge(false, Array)
+#2 [internal function]: Directus\API\Routes\A1\Files->files()
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#11 {main}
+ERROR - 2017-06-05T10:30:45-04:00 - exception 'ErrorException' with message 'array_merge(): Argument #1 is not an array' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php:43
+Stack trace:
+#0 [internal function]: Slim\Slim::handleErrors(2, 'array_merge(): ...', '/Users/mathijs/...', 43, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(43): array_merge(false, Array)
+#2 [internal function]: Directus\API\Routes\A1\Files->files()
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#11 {main}
+ERROR - 2017-06-05T10:45:28-04:00 - exception 'League\Flysystem\FileNotFoundException' with message 'File not found at path: logo-react.svg' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/league/flysystem/src/Filesystem.php:385
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/league/flysystem/src/Filesystem.php(209): League\Flysystem\Filesystem->assertPresent('logo-react.svg')
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Files/Files.php(61): League\Flysystem\Filesystem->rename('logo-react.svg', '00000000016.svg')
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(354): Directus\Files\Files->rename('logo-react.svg', '00000000016.svg')
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#5 [internal function]: Directus\API\Routes\A1\Files->files()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#13 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#14 {main}
+ERROR - 2017-06-05T10:47:29-04:00 - exception 'League\Flysystem\FileNotFoundException' with message 'File not found at path: logo-aurelia.png' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/league/flysystem/src/Filesystem.php:385
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/league/flysystem/src/Filesystem.php(209): League\Flysystem\Filesystem->assertPresent('logo-aurelia.pn...')
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Files/Files.php(61): League\Flysystem\Filesystem->rename('logo-aurelia.pn...', '00000000017.png')
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(354): Directus\Files\Files->rename('logo-aurelia.pn...', '00000000017.png')
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#5 [internal function]: Directus\API\Routes\A1\Files->files()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#13 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#14 {main}
+ERROR - 2017-06-05T10:48:43-04:00 - exception 'League\Flysystem\FileNotFoundException' with message 'File not found at path: logo-react.svg' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/league/flysystem/src/Filesystem.php:385
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/league/flysystem/src/Filesystem.php(209): League\Flysystem\Filesystem->assertPresent('logo-react.svg')
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Files/Files.php(61): League\Flysystem\Filesystem->rename('logo-react.svg', '00000000018.svg')
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(354): Directus\Files\Files->rename('logo-react.svg', '00000000018.svg')
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#5 [internal function]: Directus\API\Routes\A1\Files->files()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#13 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#14 {main}
+ERROR - 2017-06-05T10:49:45-04:00 - exception 'League\Flysystem\FileNotFoundException' with message 'File not found at path: logo-aurelia.png' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/league/flysystem/src/Filesystem.php:385
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/league/flysystem/src/Filesystem.php(209): League\Flysystem\Filesystem->assertPresent('logo-aurelia.pn...')
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Files/Files.php(61): League\Flysystem\Filesystem->rename('logo-aurelia.pn...', '00000000019.png')
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(354): Directus\Files\Files->rename('logo-aurelia.pn...', '00000000019.png')
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#5 [internal function]: Directus\API\Routes\A1\Files->files()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#13 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#14 {main}
+ERROR - 2017-06-05T10:51:35-04:00 - exception 'League\Flysystem\FileNotFoundException' with message 'File not found at path: logo-react.svg' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/league/flysystem/src/Filesystem.php:385
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/league/flysystem/src/Filesystem.php(209): League\Flysystem\Filesystem->assertPresent('logo-react.svg')
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Files/Files.php(61): League\Flysystem\Filesystem->rename('logo-react.svg', '00000000020.svg')
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(354): Directus\Files\Files->rename('logo-react.svg', '00000000020.svg')
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#5 [internal function]: Directus\API\Routes\A1\Files->files()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#12 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#13 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#14 {main}
+ERROR - 2017-06-05T15:09:02-04:00 - exception 'ErrorException' with message 'array_merge(): Argument #1 is not an array' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php:43
+Stack trace:
+#0 [internal function]: Slim\Slim::handleErrors(2, 'array_merge(): ...', '/Users/mathijs/...', 43, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(43): array_merge(false, Array)
+#2 [internal function]: Directus\API\Routes\A1\Files->files()
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#11 {main}
+ERROR - 2017-06-05T15:10:20-04:00 - exception 'ErrorException' with message 'array_merge(): Argument #1 is not an array' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php:43
+Stack trace:
+#0 [internal function]: Slim\Slim::handleErrors(2, 'array_merge(): ...', '/Users/mathijs/...', 43, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(43): array_merge(false, Array)
+#2 [internal function]: Directus\API\Routes\A1\Files->files()
+#3 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#11 {main}
+ERROR - 2017-06-05T15:15:04-04:00 - exception 'ErrorException' with message 'Undefined index: name' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php:345
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(345): Slim\Slim::handleErrors(8, 'Undefined index...', '/Users/mathijs/...', 345, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#3 [internal function]: Directus\API\Routes\A1\Files->files()
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-06-05T15:15:49-04:00 - exception 'ErrorException' with message 'Undefined index: name' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php:345
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(345): Slim\Slim::handleErrors(8, 'Undefined index...', '/Users/mathijs/...', 345, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#3 [internal function]: Directus\API\Routes\A1\Files->files()
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-06-05T15:19:31-04:00 - exception 'ErrorException' with message 'Undefined index: name' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php:345
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(345): Slim\Slim::handleErrors(8, 'Undefined index...', '/Users/mathijs/...', 345, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#3 [internal function]: Directus\API\Routes\A1\Files->files()
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
+ERROR - 2017-06-05T15:22:40-04:00 - exception 'ErrorException' with message 'Undefined index: name' in /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php:345
+Stack trace:
+#0 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/BaseTableGateway.php(345): Slim\Slim::handleErrors(8, 'Undefined index...', '/Users/mathijs/...', 345, Array)
+#1 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/directus/database/TableGateway/RelationalTableGateway.php(134): Directus\Database\TableGateway\BaseTableGateway->addOrUpdateRecordByArray(Array)
+#2 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/routes/A1/Files.php(45): Directus\Database\TableGateway\RelationalTableGateway->manageRecordUpdate('directus_files', Array, 1)
+#3 [internal function]: Directus\API\Routes\A1\Files->files()
+#4 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Route.php(436): call_user_func_array(Array, Array)
+#5 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1305): Slim\Route->dispatch()
+#6 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#7 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Slim/CorsMiddleware.php(22): Slim\Middleware\MethodOverride->call()
+#9 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/vendor/slim/slim/Slim/Slim.php(1254): Directus\Slim\CorsMiddleware->call()
+#10 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/core/Directus/Application/Application.php(80): Slim\Slim->run()
+#11 /Users/mathijs/Documents/Websites/www.fullstack.dev/cms/api/api.php(1933): Directus\Application\Application->run()
+#12 {main}
